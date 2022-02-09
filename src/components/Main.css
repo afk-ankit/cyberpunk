@@ -1,0 +1,64 @@
+.mainimgContainer> img{
+    width: 300px;
+    border-radius: 3rem;
+}
+.mainContainer{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+    border-top: 2px solid rgb(158, 158, 158);
+    border-bottom: 2px solid rgb(158, 158, 158);
+    margin-bottom: 1rem;
+}
+.mainPrice> img{
+    width: 1.6rem;
+    margin-left: 8px;
+    /* position: relative;
+    top:5px */
+}
+.mainPrice{
+    font-size:  3rem;
+    color: #78ddc7; 
+    font-weight: 700;
+}
+.mainTitle{
+    
+    font-size: 7rem;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(to right, #26bd7e,#94e7dc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 1rem;
+}
+.titleContainer{
+    display: flex;
+    /* flex-direction: colum; */
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 3rem;
+    flex: 1;
+}
+.mainId{
+    color: #8d8d8d; 
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.mainSocials{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 26px 0px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+.insta>img{
+    width: 3rem;
+   
+}

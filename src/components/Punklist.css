@@ -1,0 +1,14 @@
+.punkList{
+   display: flex;
+   cursor: pointer;
+   width: fit-content;
+   /* overflow: scroll; */
+}
+.punkListContainer{
+    overflow: scroll;
+    border-bottom: 2px solid rgb(158, 158, 158);
+    padding-bottom: 1rem;
+}
+.punkListContainer::-webkit-scrollbar{
+    display: none;
+}
